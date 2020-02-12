@@ -11,4 +11,5 @@ Tag:    1   2   3   4   5   6   7   8   9   10
 
 1. Array befüllen
 2. Ausgabe aller Tage
-3. Durchschnittstemperatur
+3. Durchschnitts-, Min-, Max Temperatur
+4. Durchlaufen aller Tests
