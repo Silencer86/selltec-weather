@@ -4,10 +4,12 @@ class Tag {
 
     private int tagImMonat;
     private int temperatur;
+    private Wetter wetter;
 
-    public Tag(int tagImMonat, int temperatur) {
+    public Tag(int tagImMonat, int temperatur, Wetter wetter) {
         this.tagImMonat = tagImMonat;
         this.temperatur = temperatur;
+        this.wetter = wetter;
     }
 
     public int getTagImMonat() {
@@ -18,4 +20,12 @@ class Tag {
         return temperatur;
     }
 
+    public Wetter getWetter() {
+    }
+
+    public boolean istSchoen() {
+    }
+
+    public boolean istScheisse() {
+    }
 }

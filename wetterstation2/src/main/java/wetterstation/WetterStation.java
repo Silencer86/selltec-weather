@@ -11,8 +11,8 @@ class WetterStation {
         tage = new ArrayList<>();
     }
 
-    public void addTag(int temperatur) {
-        tage.add(new Tag(tage.size() + 1, temperatur));
+    public void addTag(int temperatur, Wetter wetter) {
+        tage.add(new Tag(tage.size() + 1, temperatur, wetter));
     }
 
     public List<Tag> getTage() {
