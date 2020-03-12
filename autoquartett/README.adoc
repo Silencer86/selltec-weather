@@ -156,3 +156,51 @@ end note
 1. Erweitere Prüfung um andere Attribute
 2. Lass Spieler 1 durch Eingabe des Benutzers das zu Prüfende Attribut wählen
 3. Lass Spieler 2 durch "Computer" (Zufall) das zu prüfende Attribut wählen
+
+## Teil 5
+
+### Setter und Getter
+
+[source,java]
+----
+class Auto {
+   private String hersteller; <1>
+
+   public void setHersteller(String hersteller) { <2>
+       this.hersteller = hersteller;
+   }
+
+   public String getHersteller() { <3>
+       return this.hersteller;
+   }
+}
+----
+<1> Privates Attribut, dass nur innerhalb der Klasse direkt angesprochen werden kann
+<2> Setter zum setzen des Attributes
+<3> Getter zum auslesen des Attributes
+
+### Aufgabe 1
+
+1. Verbiete direkten Zugriff auf die Attribute aller Klassen
+2. Ersetze direkten Zugriff auf die Attribute durch Setter und Getter Aufrufe
+
+### Constructor
+
+[source,java]
+----
+class Auto {
+   private final String hersteller; <1>
+
+   public Auto(String hersteller) { <2>
+        this.hersteller = hersteller;
+   }
+}
+----
+<1> Attribut ist `final` und muss direkt oder im Constructor gesetzt werden
+<2> Constructor für Klasse Auto in dem der Hersteller beim Erzeugen des Objekte gesetzt wird
+
+### Aufgabe 2
+
+1. Erszeuge Constructoren für alle Klassen
+2. Mache alle Attribute, die nach dem Erzeugen eines Ojekte nicht mhr verändert werden `final`
+
