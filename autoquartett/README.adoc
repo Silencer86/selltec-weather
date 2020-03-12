@@ -202,5 +202,5 @@ class Auto {
 ### Aufgabe 2
 
 1. Erszeuge Constructoren für alle Klassen
-2. Mache alle Attribute, die nach dem Erzeugen eines Ojekte nicht mhr verändert werden `final`
+2. Mache alle Attribute, die nach dem Erzeugen eines Objektes nicht mehr verändert werden müssen `final`
 
