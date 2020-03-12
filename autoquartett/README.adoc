@@ -197,7 +197,7 @@ class Auto {
 }
 ----
 <1> Attribut ist `final` und muss direkt oder im Constructor gesetzt werden
-<2> Constructor für Klasse Auto in dem der Hersteller beim Erzeugen des Objekte gesetzt wird
+<2> Constructor für Klasse Auto in dem das Attribut Hersteller beim Erzeugen des Objekte gesetzt wird
 
 ### Aufgabe 2
 
