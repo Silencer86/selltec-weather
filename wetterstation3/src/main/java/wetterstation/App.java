@@ -18,6 +18,7 @@ public class App {
         station.addTag(16, Wetter.SONNENSCHEIN, "8.1.2020");
         station.addTag(17, Wetter.SONNENSCHEIN, "9.1.2020");
         station.addTag(7, Wetter.REGEN, "10.1.2020");
+        
         System.out.println(station);
 
     }

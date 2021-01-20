@@ -41,7 +41,7 @@ class WetterStation {
 
     public String toString() {
     	//TODO
-    	return "";
+    	return "TODO";
     }
 
 }
