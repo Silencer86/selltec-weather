@@ -27,16 +27,10 @@ class Tag {
     }
 
     public boolean istSchoen() {
-        return wetter == Wetter.SONNENSCHEIN || wetter == Wetter.HEITER;
+        return false;
     }
 
     public boolean istScheisse() {
-        switch (wetter) {
-            case REGEN:
-            case SCHNEE:
-                return true;
-            default:
-                return false;
-        }
+        return false;
     }
 }
