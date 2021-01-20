@@ -17,6 +17,7 @@ class WetterStation {
     }
 
     public void addTag(int temperatur, Wetter wetter, String date) {
+    	//TODO
     }
 
     public List<Tag> getTage() {
@@ -24,44 +25,23 @@ class WetterStation {
     }
 
     public double getDurchschnitt() {
-        double summe = 0;
-
-        for (Tag tag : tage) {
-            summe += tag.getTemperatur();
-        }
-
-        return summe / tage.size();
+    	//TODO
+        return 0;
     }
 
     public int getMax() {
-        Integer max = null;
-
-        for (Tag tag : tage) {
-            if (max == null) {
-                max = tag.getTemperatur();
-            } else {
-                max = Math.max(max, tag.getTemperatur());
-            }
-        }
-
-        return max;
+        //TODO
+        return 0;
     }
 
     public int getMin() {
-        Integer min = null;
-
-        for (Tag tag : tage) {
-            if (min == null) {
-                min = tag.getTemperatur();
-            } else {
-                min = Math.min(min, tag.getTemperatur());
-            }
-        }
-
-        return min;
+    	//TODO
+        return 0;
     }
 
     public String toString() {
+    	//TODO
+    	return "";
     }
 
 }
