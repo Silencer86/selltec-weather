@@ -3,7 +3,7 @@
 ## Aufgabe
 
 1. `addTag()` Methode in Klasse `Wetterstation`
-1. Ausgabe
+1. Ausgabe (`main` Methode in Klasse `App`)
 
 ```
 Temp:   8   10  4   8   12  14  14  16  17  7
